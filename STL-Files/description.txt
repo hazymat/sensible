@@ -1,0 +1,6 @@
+All designs parametric in Fusion 360
+
+Frontplate
+Backplate
+Baffle for PIR (angle and height can be altered through parameters in Fusion360)
+DHT Lid (to provide separate ventilated chamber for temp sensor away from other components)
