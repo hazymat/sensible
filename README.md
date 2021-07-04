@@ -31,6 +31,10 @@ As of 04/07/2021 this is a work in progress. So far we have:
 - Custom firmware supporting OTA updates, audio calibration initiated over MQTT (period of calibration set over MQTT), remote control of audio threshold, audio decay, and timing for repeat / interim audio trigger messages (configured over MQTT), audio levels reported back every x seconds that audio is above the threshold, and of course sensor data reporting back over MQTT
 - Node-RED flows that hook in with the Node-RED lighting system, to allow us to set up instances of sensors, toggle individual sensing types, etc.
 
+Design decisions
+---
+Wired vs. wireless. My preference has always been for wired ethernet-connected devices in the home. This project has been through a few iterations but have settled on wireless for reasons of available space in the housing. Toyed with the idea of building a board that directly supported W5100 and ATMega328 but keeping it simple to start with and will have a detachable development board. (Also means we can use space under the board as dev board will be mounted on female headers.) Power is provided via 12-24V passive PoE through network cable. The board will have an ethernet jack for ease of connecting power, but IP connection over wireless. Strange combo, but justifiable at least to get started. Ideally this board would be wired with 802.3af PoE, perhaps that's for later as this is basically designing a development board from scratch.
+
 Photos
 ---
 Some photos and screenshots should give a better idea of this:
