@@ -1,0 +1,4 @@
+11/07/2021 - sensible-v0.91-ESP32
+- replace AsyncElegantOTA (web-based OTA) with ArduionOTA. Benefit: quicker / more direct to upload OTA at least when Arduino Client is working well.
+- replace Webserial with TelnetStream, prefer to use telnet for debug, keep web interface for control (not yet implemented)
+- Refer wifi credentials and MQTT server variable to another file, instructions in the .ino file
