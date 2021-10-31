@@ -1,5 +1,5 @@
 # Sensible
-Sensible aims to be the **ultimate ceiling-mounted multisensor**: a Human Presence Detector with additional sensor and actuator functions. The prototype is surface mount but the aim is to consider options for recessed mount for an architectural finish. There are some challenges with audio and temp sensing when recessed into the ceiling.
+Sensible aims to be the **ultimate ceiling-mounted multisensor**: a Human Presence Detector with additional sensor and actuator functions. The prototype is surface mount. Ideally the multisensor would be recessed for an architectural finish, but there are additional challenges with recessing fittings such as fire safety and audio / temp sensing difficulties so for now it's surface-mounted.
 
 <img src="https://user-images.githubusercontent.com/7063284/124400552-410a9480-dd1b-11eb-9708-7633617143a6.png" height="160"> <img src="https://user-images.githubusercontent.com/7063284/124400554-4536b200-dd1b-11eb-9c35-615c648f231c.png" height="160"> <img src="https://user-images.githubusercontent.com/7063284/124400537-23d5c600-dd1b-11eb-94f4-8139c80127df.png" height="160"> <img src="https://user-images.githubusercontent.com/7063284/124400960-43bab900-dd1e-11eb-9f59-2d8a473cccd0.png" height="160">
 <img src="https://user-images.githubusercontent.com/7063284/124400774-ed00af80-dd1c-11eb-868f-a861e379b630.png" height="130">
